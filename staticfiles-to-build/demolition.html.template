@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+	  <h3>Demolition</h3>
+	<p>
+	We work at the highest level of professionalism to safely take down, wearing overalls and respirators, and wrap and fasten where appropriate for the job, load and securely transport the waste for recycling and further processing of any hazardous materials at a licensed waste yard. We have passed multiple qualifications in how to handle Asbestos safety and effectiveness - and retrain frequently. We have taken down around 50 garages covering the whole of the Southeast of England.
+	</p>
+	<p>We have several trucks available combined for any larger jobs.
+
+       <p> 
+       <h1>Contact Us</h1>
+       <form method="post">
+       {% csrf_token %}
+       {{ form.as_p }}
+       <div class="form-actions">
+       <button type="submit">Send</button>
+       </div>
+       </form>
+
+        <p>
+        <img src = "{% static "imagest/image0-800.jpg" %}">
+        <img src = "{% static "imagest/image2a-800.jpg" %}">
+        <img src = "{% static "imagest/image1a-800.jpg" %}"></br>
+        <img src = "{% static "imagest/image1b-800.jpg" %}">
+        <img src = "{% static "imagest/image1c-800.jpg" %}"></br>
+        <img src = "{% static "imagest/image1d-800.jpg" %}">
+        
+        </p>
+        <p>
+        We have twenty years of cumalative experience for various companies working in demolition, including soft strip and very large garage removal.
+        </p>
+        <p>We have public liability insurance to a value of £1,000,000.</p>
+        <p>
+        We have an up to date, upper tier waste disposal licence, as required by law to dispose of any left over material.
+        </p>
+        <img src = "{% static "wastecarriers.png" %}">
+
+
+{% endblock %}
+

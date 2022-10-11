@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+	<h2>Experts in construction and demolition</h2>
+	  <h3>Services</h3>
+	<p>
+	<ul>
+          <li>Taking down prefabricated garages</li>
+          <li>Installing and repairing all fencing types</li>
+	  <li>Non license required and non notifiable Asbestos removal, using approved protective equipment
+	  <li>Soft strip</li>
+	  <li>Domestic property related demolition</li>
+	  <li>Waste disposals</li>
+	  <li>Groundwork</li>
+	  <li>Garden rooms with double glazing, electric supply and internet access</li>
+	  
+	  
+
+        </ul>
+	</p>
+	<p>
+        <p>
+        <img src = "{% static "images/22-10.jpg" %}">
+        </p>
+
+{% endblock %}

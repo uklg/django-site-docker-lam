@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+{% block content %}
+        <h3>Welcome to the App</h3><br>
+{% endblock %}
+
+
+in apptempplate outside content block

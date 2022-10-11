@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+
+	<h2>Frequently Asked Questions</h2>
+
+	   
+	<button type="button" class="collapsible">Does work on Asbestos cement require a license?</button>
+	<div class="content">
+  		<p>Most work on asbestos cement can be carried out without a licence providing workers have had the appropriate information, training and instruction.</p>
+	</div>
+	<button type="button" class="collapsible">How does Asbestos removal work?</button>
+	<div class="content">
+ 		<p>We work on non license required and non notifiable Asbestos removal. Using approved protective equipment and double membrane wrap for all hazardous material to be transported correctly.</li></p>
+	</div>
+	<button type="button" class="collapsible">Where could Asbestos be?</button>
+	<div class="content">
+  		<p>Outside
+  		<ul>
+  			
+			<li>Gutters and Asbestos cement downpipes</li>
+			<li>Soffits – AIB or asbestos cement</li>
+			<li>AIB exterior window panel</li>
+			<li>Asbestos cement roof</li>
+			<li>Asbestos cement panels</li>
+			<li>Roofing felt</li>
+		</ul>
+	</div>
+	<button type="button" class="collapsible">Is Asbestos dangerous?</button>
+	<div class="content">
+  		<p>Yes. Asbestos has a number of handling and processing requirements that we follow to keep everyone safe.</p>
+	</div>
+	
+
+
+	<p>&nbsp;</p>
+  
+        <img src = "{% static "wastecarriers.png" %}">
+
+
+<script src="{% static "collapsable.js" %}"></script>
+
+
+{% endblock %}
+
+

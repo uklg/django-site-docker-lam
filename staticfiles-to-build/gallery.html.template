@@ -1,0 +1,91 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<p>
+ <div class="gallery">
+  <a href='{% static "imagest/IMG-20210206-WA0026-800.jpg" %}' target="_blank">
+   <img src='{% static "imagest/IMG-20210206-WA0026-200.jpg" %}' width="200"/>
+  </a>
+  <div class="desc">
+   Asbestos garage before demolition
+  </div>
+ </div>
+ <div class="gallery">
+  <a href='{% static "imagest/protective-equipment-work-in-an-asbestos-garage-800.jpg" %}' target="_blank">
+   <img "="" src='{% static "imagest/protective-equipment-work-in-an-asbestos-garage-200.jpg" %}' width="200"/>
+  </a>
+  <div class="desc">
+   Prefab garage being demolished
+  </div>
+ </div>
+ <div class="gallery">
+  <a href='{% static "imagest/IMG-20210206-WA0013.jpg" %}' target="_blank">
+   <img "="" src='{% static "imagest/IMG-20210206-WA0013-200.jpg" %}' width="200"/>
+  </a>
+  <div class="desc">
+   Prefab garage after demolition and removal
+  </div>
+ </div>
+</p>
+<div class="gallery">
+ <a href='{% static "imagest/IMG-20210206-WA0015-800.jpg" %}' target="_blank">
+  <img src='{% static "imagest/IMG-20210206-WA0015-200.jpg" %}' width="200"/>
+ </a>
+ <div class="desc">
+  Under demolition fence at front
+ </div>
+</div>
+<div class="gallery">
+ <a href='{% static "imagest/IMG-20210206-WA0022-800.jpg" %}' target="_blank">
+  <img src='{% static "imagest/IMG-20210206-WA0022-200.jpg" %}' width="200"/>
+ </a>
+ <div class="desc">
+  Newly created fence at front
+ </div>
+</div>
+<div class="gallery">
+ <a href='{% static "imagest/IMG-20210206-WA0000-800.jpg" %}' target="_blank">
+  <img "="" src='{% static "imagest/IMG-20210206-WA0000-200.jpg" %}' width="200"/>
+ </a>
+ <div class="desc">
+  Fence under construction
+ </div>
+</div>
+<div class="gallery">
+ <a href='{% static "imagest/IMG-20210206-WA0001-800.jpg" %}' target="_blank">
+  <img src='{% static "imagest/IMG-20210206-WA0001-200.jpg" %}' width="200"/>
+ </a>
+ <div class="desc">
+  Freshly installed rear fence
+ </div>
+</div>
+<div class="gallery">
+ <a href='{% static "imagest/IMG-20210206-WA0020-800.jpg" %}' target="_blank">
+  <img "="" src='{% static "imagest/IMG-20210206-WA0020-200.jpg" %}' width="200"/>
+ </a>
+ <div class="desc">
+  Garden room brickwork complete
+ </div>
+</div>
+<div class="gallery">
+ <a href='{% static "imagest/IMG-20210206-WA0019-800.jpg" %}' target="_blank">
+  <img "="" src='{% static "imagest/IMG-20210206-WA0019-200.jpg" %}' width="200"/>
+ </a>
+ <div class="desc">
+  Garden room under construction
+ </div>
+</div>
+<div class="gallery">
+ <a href='{% static "imagest/IMG-20210206-WA0016-800.jpg" %}' target="_blank">
+  <img "="" src='{% static "imagest/IMG-20210206-WA0016-200.jpg" %}' width="200"/>
+ </a>
+ <div class="desc">
+  Garden room after completing outside
+ </div>
+</div>
+<p>
+</p>
+<p>
+</p>
+{% endblock %}
+

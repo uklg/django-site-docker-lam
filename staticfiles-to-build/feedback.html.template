@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+	<h2>Customer feedback</h2>
+	  <h3>Direct</h3>
+	<p>
+	JM Demolition have completed a large garage demolition task on time to a high standard. Thanks again Jamie.<br>
+	<i>P. Saunders, 2nd of May, 2020</i>
+	</p>
+	<p>
+        <p>
+       
+        </p>
+        <p>
+	<h3>MyBuilder</h3> 
+	100 percent review rating (over 200 reviews)
+        </p>
+        <p>
+	<a href="https://www.mybuilder.com/profile/view/jm_building_services" target="_blank"><img src = "{% static "imagest/feedback.png" %}"></a>
+	<p>
+        <a href="https://www.mybuilder.com/profile/view/jm_building_services" target="_blank"><img src = "{% static "100percent-150.jpg" %}"></a>
+        </p>
+        </p>
+        <p>
+
+{% endblock %}
