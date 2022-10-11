@@ -31,19 +31,19 @@ div#tswcentrecombo {
 	float: left ;
 	width: 87.5% ;
 	color: inherit ;
-	background-color: hsl(60, 0.8%, 52.2%) ;
+	background-color: #fb9488 ;
 }
 div#tswothersidecol {
 	float: right ;
 	width: 25% ;
 	color: #000 ;
-	background-color: hsl(60, 0.8%, 52.2%) ;
+	background-color: #fb9488 ;
 }
 div#tswsidecol {
 	float: left ;
 	width: 10% ;
 	color: #000 ;
-	background-color: hsl(60, 0.8%, 52.2%) ;
+	background-color: #fb9488 ;
 }
 div#tswcontent {
 	float: right ;
@@ -74,8 +74,8 @@ div#tswcontproper {
 	padding-right: 5px ;
 }
 div#tswcontainer {
-	color: hsl(60, 0.8%, 52.2%) ;
-	background-color: hsl(60, 0.8%, 52.2%);
+	color: #fb9488 ;
+	background-color: #fb9488;
 }
 div#tswsideproper, div#tswothersideproper {
 	padding-left: 5px ;
@@ -83,11 +83,11 @@ div#tswsideproper, div#tswothersideproper {
 }
 div#tswheader {
 	color: #000 ;
-	background-color: hsl(60, 0.8%, 52.2%) ;
+	background-color: #fb9488 ;
 }
 div#tswfooter {
 	color: white ;
-	background-color: hsl(60, 0.8%, 52.2%) ;
+	background-color: #fb9488 ;
 	padding: 0 px;
 	margin: 0 px;
 	
