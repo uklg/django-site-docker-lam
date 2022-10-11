@@ -49,7 +49,7 @@ div#tswcontent {
 	float: right ;
 	width: 85% ;
 	color: #000 ;
-	background-color: grey ;
+	background-color: #fb9494 ;
 }
 @media only screen and (max-width: 629px) {
 	div#tswsidecol {
