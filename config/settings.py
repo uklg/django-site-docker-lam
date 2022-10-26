@@ -48,7 +48,7 @@ INSTALLED_APPS = [
 # set debug mode from environment variables
 # Set to TRUE to disable emails, to get error messages and to autorestart on code changes and to turn on debug toolbar:
 
-DEBUG = env("DEBUG", default=True)
+DEBUG = env("DEBUG", default=False)
 
 #DEBUG = True
 
