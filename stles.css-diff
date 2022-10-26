@@ -1,0 +1,12 @@
+rm@mini:~/docker/django-site-docker-lam/staticfiles-to-build$ grep background styles.css
+	background-color: hsl(60, 0.8%, 52.2%) ;
+	background-color: hsl(60, 0.8%, 52.2%) ;
+	background-color: hsl(60, 0.8%, 52.2%) ;
+	background-color: grey ;
+	background-color: hsl(60, 0.8%, 52.2%);
+	background-color: hsl(60, 0.8%, 52.2%) ;
+	background-color: hsl(60, 0.8%, 52.2%) ;
+  background-color: #777;
+  background-color: #555;
+  background-color: #f1f1f1;
+
