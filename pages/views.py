@@ -87,12 +87,12 @@ def contactViewD(request):
                     print(submit_name, submit_email, submit_number, submit_message, ['admin@example.com'])
             except BadHeaderError:
                 return HttpResponse('Invalid header found.')
-            return redirect('demolition')
+            return redirect('laminate')
             #form='blah'
-    return render(request, "demolition.html", {'form': form, 'current_url': current_url})
+    return render(request, "laminate.html", {'form': form, 'current_url': current_url})
 
 def successViewD(request):
-    return render(request, "demolition.html", {'form': form})
+    return render(request, "laminate.html", {'form': form})
     return HttpResponse('Success! Thank you for your message. ')
 
 def data_flair(request):
